@@ -8,7 +8,7 @@ app=Flask(__name__)
 
 @app.route('/')
 def hello():
-     return json.dumps({'date14': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'host':socket.gethostname()})
+     return json.dumps({'date15': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'host':socket.gethostname()})
 
 
 if __name__ == '__main__':
